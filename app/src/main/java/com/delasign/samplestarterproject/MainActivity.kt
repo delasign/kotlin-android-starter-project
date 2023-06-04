@@ -1,4 +1,4 @@
-package com.delasign.sampleproject
+package com.delasign.samplestarterproject
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.delasign.sampleproject.ui.theme.MarkedPriceTheme
+import com.delasign.samplestarterproject.ui.theme.MarkedPriceTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

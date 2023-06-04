@@ -1,4 +1,4 @@
-package com.delasign.sampleproject.ui.theme
+package com.delasign.samplestarterproject.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

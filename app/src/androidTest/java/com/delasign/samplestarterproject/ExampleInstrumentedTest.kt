@@ -1,4 +1,4 @@
-package com.delasign.sampleproject
+package com.delasign.samplestarterproject
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
