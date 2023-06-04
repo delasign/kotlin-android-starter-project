@@ -2,8 +2,7 @@
 
 1.  **Install Android Studio**
 
-    Download Android Studio and install it using the link below.
-https://developer.android.com/studio?gclid=Cj0KCQjw7PCjBhDwARIsANo7CgmP9axkNMSvHlUdDJe9ht1AdE0YwNKad6JM8AWncrSPHfH_Dz0lWvkaAhvqEALw_wcB&gclsrc=aw.ds
+    Download Android Studio and install it using this <a href= "https://developer.android.com/studio">link</a>.
 
 2.  **Open Android Studio**
 
