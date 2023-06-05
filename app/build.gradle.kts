@@ -8,12 +8,14 @@ val versionMinor = 0
 val versionPatch = 0
 val versionBuild = 0 // Bump for dogfood builds, public betas, etc.
 
+val bundleId = "com.delasign.samplestarterproject"
+
 android {
-    namespace = "com.delasign.samplestarterproject"
+    namespace = bundleId
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.delasign.samplestarterproject"
+        applicationId = bundleId
         minSdk = 31
         targetSdk = 33
         versionCode = versionMajor * 10000 + versionMinor * 1000 + versionPatch * 100 + versionBuild
