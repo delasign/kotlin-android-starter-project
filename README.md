@@ -2,13 +2,33 @@
 
 1.  **Install Android Studio**
 
-    Download Android Studio and install it using this <a href= "https://developer.android.com/studio">link</a>.
+    Download and install Android Studio (<a href= "https://developer.android.com/studio">link</a>).
 
 2.  **Open Android Studio**
 
     Open this project in Android Studio
 
+## ⌨️ Keyboard Shortcuts
+
+**Select Many lines**
+Option + Shift + Click
+
+**Lint**
+Command + Option + L
+
+**Find**
+Command + F -> Find in File
+Command + Shift + F -> Find and Replace in Project
+
+**Find and Replace**
+Command + R -> Find and Replace in File
+Command + Shift + R -> Find and Replace in Project
+
 ## 📚 Tutorials
 
-1.  **Rename an Android Studio Project**
+### **Basics**
 
+1. <a href="https://www.delasign.com/blog/android-studio-clean-rebuild-project/?utm=github-starter-project">How to clean and rebuild an Android project in Android Studio 🔗</a>
+2. <a href="">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
+3. <a href="">Rename an Android Studio Project 🔗</a>
+4. <a href="">How to Soft Wrap Everything in Android Studio 🔗</a>
