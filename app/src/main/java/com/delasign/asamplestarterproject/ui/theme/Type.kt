@@ -1,4 +1,4 @@
-package com.delasign.samplestarterproject.ui.theme
+package com.delasign.asamplestarterproject.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

@@ -1,4 +1,4 @@
-package com.delasign.samplestarterproject
+package com.delasign.asamplestarterproject
 
 import org.junit.Test
 

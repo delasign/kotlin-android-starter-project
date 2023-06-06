@@ -8,7 +8,7 @@ val versionMinor = 0
 val versionPatch = 0
 val versionBuild = 0 // Bump for dogfood builds, public betas, etc.
 
-val bundleId = "com.delasign.samplestarterproject"
+val bundleId = "com.delasign.asamplestarterproject"
 
 android {
     namespace = bundleId
