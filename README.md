@@ -31,5 +31,6 @@ Command + Shift + R -> Find and Replace in Project
 1. <a href="https://www.delasign.com/blog/android-studio-clean-rebuild-project/?utm=github-starter-project">How to clean and rebuild an Android project in Android Studio 🔗</a>
 2. <a href="https://delasign.com/blog/how-to-sync-an-android-project-with-its-gradle-files-in-android-studio/?utm=github-starter-project">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
-4. <a href="">How to Soft Wrap Everything in Android Studio 🔗</a>
-5. <a href="">How to add and use an image using Kotlin & Android Studio 🔗</a>
+4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
+5. <a href="">How to Soft Wrap Everything in Android Studio 🔗</a>
+6. <a href="">How to add and use an image using Kotlin & Android Studio 🔗</a>
