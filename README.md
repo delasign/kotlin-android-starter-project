@@ -67,11 +67,32 @@ Command + Shift + R -> Find and Replace in Project
 In Android Studio, open the terminal window and run the following line
 
 ```shell
+./gradlew spotlessCheck
+```
+
+**Apply Spotless Apply**
+In Android Studio, open the terminal window and run the following line
+
+```shell
 ./gradlew spotlessApply
 ```
 
+**Apply ktlint check**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew ktlintCheck
+```
+
+**Apply ktlint format**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew ktlintFormat
+```
+
 **Modify Spotless and ktlint**
-Open the spotless.gradle to change the configuration.
+Open the spotless.gradle to change the configuration using the <a href="https://github.com/diffplug/spotless/tree/main/plugin-gradle">Spotless Gradle Guide 🔗.</a>
 
 ## 📚 Tutorials
 
@@ -81,4 +102,8 @@ Open the spotless.gradle to change the configuration.
 2. <a href="https://delasign.com/blog/how-to-sync-an-android-project-with-its-gradle-files-in-android-studio/?utm=github-starter-project">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
 4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
-5. <a href="https://www.delasign.com/blog/android-studio-ktlint-and-spotless/?utm=github-starter-project">How to add ktlint and spotless to an Android project 🔗</a>
+
+### **Linting**
+
+1. <a href="https://www.delasign.com/blog/android-studio-ktlint-and-spotless/?utm=github-starter-project">How to add ktlint and spotless to an Android project 🔗</a>
+2. <a href="https://github.com/diffplug/spotless/tree/main/plugin-gradle">Spotless Gradle Guide 🔗</a>

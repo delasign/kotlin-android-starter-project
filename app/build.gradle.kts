@@ -1,4 +1,3 @@
-//apply(from = "${project.rootDir}/spotless.gradle")
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -45,7 +44,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.3.2"
+        kotlinCompilerExtensionVersion = "1.4.5"
     }
     packagingOptions {
         resources {
