@@ -10,6 +10,8 @@
 
 ## ⌨️ Keyboard Shortcuts
 
+<a href="https://developer.android.com/studio/intro/keyboard-shortcuts">All Keyboard Shortcuts 🔗</a>
+
 **Select Many lines**
 Option + Shift + Click
 
