@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath("com.diffplug.spotless:spotless-plugin-gradle:5.15.0")
+        classpath("com.diffplug.spotless:spotless-plugin-gradle:6.19.0")
     }
 }
 

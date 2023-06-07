@@ -81,3 +81,4 @@ Open the spotless.gradle to change the configuration.
 2. <a href="https://delasign.com/blog/how-to-sync-an-android-project-with-its-gradle-files-in-android-studio/?utm=github-starter-project">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
 4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
+5. <a href="https://www.delasign.com/blog/android-studio-ktlint-and-spotless/?utm=github-starter-project">How to add ktlint and spotless to an Android project 🔗</a>
