@@ -4,19 +4,54 @@
 
     Download and install Android Studio (<a href= "https://developer.android.com/studio">link</a>).
 
-2.  **Open Android Studio**
+2.  **Make sure Java is Installed**
 
-    Open this project in Android Studio
+    In terminal run:
 
-## ⌨️ Keyboard Shortcuts
+    ```shell
+    java --version
+    ```
+
+    If Java is not installed, run the following lines:
+
+    ```shell
+    brew install java
+    brew install oracle-jdk --cask
+    ```
+
+    If you need to install brew, go to this <a href="https://brew.sh">link</a> to learn how.
+
+    Once you're done, confirm that Java is installed by running the following line in terminal:
+
+    ```shell
+    java --version
+    ```
+
+3.  **Install KLint**
+    This project uses <a href="https://github.com/pinterest/ktlint">ktlint</a> and <a href="https://github.com/diffplug/spotless">Spotless</a> to maintain code consistency.
+
+    For this to work you must have installed ktlint on your machine.
+
+    ```shell
+    brew install ktlint
+    ```
+
+    If you need to install brew, go to this <a href="https://brew.sh">link</a> to learn how.
+
+4.  **That's it**
+
+    Open this project in Android Studio and get started.
+
+## 💻 Keyboard Shortcuts
 
 <a href="https://developer.android.com/studio/intro/keyboard-shortcuts">All Keyboard Shortcuts 🔗</a>
 
 **Select Many lines**
 Option + Shift + Click
 
-**Lint**
-Command + Option + L
+**Format**
+Command + Option + L -> Format this file
+Command + Option + Shift + L -> Format this file, with options
 
 **Find**
 Command + F -> Find in File
@@ -26,6 +61,18 @@ Command + Shift + F -> Find and Replace in Project
 Command + R -> Find and Replace in File
 Command + Shift + R -> Find and Replace in Project
 
+## 🧹 Spotless and ktlint
+
+**Apply Spotless Check**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew spotlessApply
+```
+
+**Modify Spotless and ktlint**
+Open the spotless.gradle to change the configuration.
+
 ## 📚 Tutorials
 
 ### **Basics**
@@ -34,5 +81,3 @@ Command + Shift + R -> Find and Replace in Project
 2. <a href="https://delasign.com/blog/how-to-sync-an-android-project-with-its-gradle-files-in-android-studio/?utm=github-starter-project">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
 4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
-5. <a href="">How to Soft Wrap Everything in Android Studio 🔗</a>
-6. <a href="">How to add and use an image using Kotlin & Android Studio 🔗</a>
