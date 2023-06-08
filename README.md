@@ -103,7 +103,24 @@ Open the spotless.gradle to change the configuration using the <a href="https://
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
 4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
 
+### **Settings**
+
+1. <a href="https://delasign.com/blog/android-studio-soft-wrap-files/?utm=github-starter-project">How to Soft Wrap Files in Android Studio 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-git-automation-settings/?utm=github-starter-project">How to change git version control automation settings 🔗</a>
+
+### **Gradle**
+1. <a href="https://delasign.com/blog/android-studio-create-gradle-file/?utm=github-starter-project">How to create a Gradle file in Android Studio 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-gradle-pre-build-task/?utm=github-starter-project">How to run a Gradle Kotlin DSL build task in Android Studio 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-run-build-task-any-stage/?utm=github-starter-project">How to run a task at any stage of an app Gradle build 🔗</a>
+
+
 ### **Linting**
 
 1. <a href="https://www.delasign.com/blog/android-studio-ktlint-and-spotless/?utm=github-starter-project">How to add ktlint and spotless to an Android project 🔗</a>
 2. <a href="https://github.com/diffplug/spotless/tree/main/plugin-gradle">Spotless Gradle Guide 🔗</a>
+3. <a href="https://delasign.com/blog/android-ktlint-spotless-precommit-script/?utm=github-starter-project">How to run Spotless and ktlint in a pre-commit git hook 🔗</a>
+4. <a href="https://delasign.com/blog/android-studio-gradle-precommit-git-script/?utm=github-starter-project">How to add a pre-commit git hook script using a Gradle task 🔗</a>
+
+### **Errors**
+
+1. <a href="https://delasign.com/blog/android-studio-fix-java-home-invalid-directory/?utm=github-starter-project">How to fix the JAVA_HOME invalid directory error on a Mac  🔗</a>
