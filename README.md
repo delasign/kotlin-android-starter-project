@@ -102,9 +102,13 @@ Open the spotless.gradle to change the configuration using the <a href="https://
 2. <a href="https://delasign.com/blog/how-to-sync-an-android-project-with-its-gradle-files-in-android-studio/?utm=github-starter-project">How to sync an Android project with its Gradle files in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-rename-project/?utm=github-starter-project">How to rename an Android Studio Project 🔗</a>
 4. <a href="https://delasign.com/blog/how-to-enable-developer-mode-on-an-android-phone-or-tablet/?utm=github-starter-project">How to enable developer mode on an Android phone or tablet 🔗</a>
+5. <a href="https://delasign.com/blog/android-studio-create-file-folder-resource?utm=github-starter-project">How to create a file, folder or resource in Android Studio</a>
+6. <a href="https://delasign.com/blog/android-studio-custom-font/?utm=github-starter-project">How to add a custom font to an Android Studio project</a>
+
+### **Jetpack Compose**
+1. <a href="https://delasign.com/blog/how-to-implement-custom-text-styles-using-kotlin-and-jetpack-compose/?utm=github-starter-project">How to implement custom Text Styles using Kotlin and Jetpack Compose</a>
 
 ### **Settings**
-
 1. <a href="https://delasign.com/blog/android-studio-soft-wrap-files/?utm=github-starter-project">How to Soft Wrap Files in Android Studio 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-git-automation-settings/?utm=github-starter-project">How to change git version control automation settings 🔗</a>
 
