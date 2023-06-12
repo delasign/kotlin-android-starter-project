@@ -44,8 +44,6 @@
 
 ## 💻 Keyboard Shortcuts
 
-<a href="https://developer.android.com/studio/intro/keyboard-shortcuts">All Keyboard Shortcuts 🔗</a>
-
 **Select Many lines**
 Option + Shift + Click
 
@@ -61,38 +59,12 @@ Command + Shift + F -> Find and Replace in Project
 Command + R -> Find and Replace in File
 Command + Shift + R -> Find and Replace in Project
 
-## 🧹 Spotless and ktlint
+## 🖇️ Resources
 
-**Apply Spotless Check**
-In Android Studio, open the terminal window and run the following line
+1. <a href="https://developer.android.com/studio/intro/keyboard-shortcuts">All Keyboard Shortcuts 🔗</a>
+2. <a href="https://convertingcolors.com/">Convert Colors to Android.Graphic.Color 🔗</a>
+2. <a href="https://www.myfixguide.com/color-converter/">Convert Colors to ARGB 🔗</a>
 
-```shell
-./gradlew spotlessCheck
-```
-
-**Apply Spotless Apply**
-In Android Studio, open the terminal window and run the following line
-
-```shell
-./gradlew spotlessApply
-```
-
-**Apply ktlint check**
-In Android Studio, open the terminal window and run the following line
-
-```shell
-./gradlew ktlintCheck
-```
-
-**Apply ktlint format**
-In Android Studio, open the terminal window and run the following line
-
-```shell
-./gradlew ktlintFormat
-```
-
-**Modify Spotless and ktlint**
-Open the spotless.gradle to change the configuration using the <a href="https://github.com/diffplug/spotless/tree/main/plugin-gradle">Spotless Gradle Guide 🔗.</a>
 
 ## 📚 Tutorials
 
@@ -137,3 +109,37 @@ Open the spotless.gradle to change the configuration using the <a href="https://
 
 1. <a href="https://delasign.com/blog/android-studio-fix-java-home-invalid-directory/?utm=github-starter-project">How to fix the JAVA_HOME invalid directory error on a Mac  🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-fix-sdk-location-error/?utm=github-starter-project">How to fix the SDK location not found error in Android Studio 🔗</a>
+
+
+## 🧹 Spotless and ktlint
+
+**Apply Spotless Check**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew spotlessCheck
+```
+
+**Apply Spotless Apply**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew spotlessApply
+```
+
+**Apply ktlint check**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew ktlintCheck
+```
+
+**Apply ktlint format**
+In Android Studio, open the terminal window and run the following line
+
+```shell
+./gradlew ktlintFormat
+```
+
+**Modify Spotless and ktlint**
+Open the spotless.gradle to change the configuration using the <a href="https://github.com/diffplug/spotless/tree/main/plugin-gradle">Spotless Gradle Guide 🔗.</a>
