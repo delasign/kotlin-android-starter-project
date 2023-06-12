@@ -44,18 +44,18 @@
 
 ## 💻 Keyboard Shortcuts
 
-**Select Many lines**
+### **Select Many lines**
 Option + Shift + Click
 
-**Format**
+### **Format**
 Command + Option + L -> Format this file
 Command + Option + Shift + L -> Format this file, with options
 
-**Find**
+### **Find**
 Command + F -> Find in File
 Command + Shift + F -> Find and Replace in Project
 
-**Find and Replace**
+### **Find and Replace**
 Command + R -> Find and Replace in File
 Command + Shift + R -> Find and Replace in Project
 
