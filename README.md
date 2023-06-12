@@ -48,16 +48,22 @@
 Option + Shift + Click
 
 ### **Format**
-Command + Option + L -> Format this file
-Command + Option + Shift + L -> Format this file, with options
+**Format this file**<br/>
+Command + Option + L<br/>
+**Format this file, with options**<br/>
+Command + Option + Shift + L
 
 ### **Find**
-Command + F -> Find in File
-Command + Shift + F -> Find and Replace in Project
+**Find in File**<br/>
+Command + F<br/>
+**Find and Replace in Project**<br/>
+Command + Shift + F -> 
 
-### **Find and Replace**
-Command + R -> Find and Replace in File
-Command + Shift + R -> Find and Replace in Project
+### **Find and Replace**<br/>
+**Find and Replace in File**<br/>
+Command + R<br/>
+**Find and Replace in Project**<br/>
+Command + Shift + R<br/> 
 
 ## 🖇️ Resources
 
