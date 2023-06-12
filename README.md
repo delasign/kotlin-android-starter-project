@@ -49,19 +49,19 @@ Option + Shift + Click
 
 ### **Format**
 **Format this file**<br/>
-Command + Option + L<br/>
+Command + Option + L<br/><br/>
 **Format this file, with options**<br/>
 Command + Option + Shift + L
 
 ### **Find**
 **Find in File**<br/>
-Command + F<br/>
+Command + F<br/><br/>
 **Find and Replace in Project**<br/>
 Command + Shift + F -> 
 
 ### **Find and Replace**<br/>
 **Find and Replace in File**<br/>
-Command + R<br/>
+Command + R<br/><br/>
 **Find and Replace in Project**<br/>
 Command + Shift + R<br/> 
 
