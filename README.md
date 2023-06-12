@@ -85,6 +85,7 @@ Command + Shift + R -> Find and Replace in Project
 ### **Jetpack Compose**
 
 1. <a href="https://delasign.com/blog/how-to-implement-custom-text-styles-using-kotlin-and-jetpack-compose/?utm=github-starter-project">How to implement custom Text Styles using Kotlin and Jetpack Compose 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 
 ### **Settings**
 

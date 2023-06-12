@@ -8,16 +8,15 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
 import com.delasign.samplestarterproject.ui.styleguide.HeaderText
-import com.delasign.samplestarterproject.ui.styleguide.theme.MarkedPriceTheme
+import com.delasign.samplestarterproject.ui.styleguide.theme.AppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MarkedPriceTheme {
+            AppTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -35,14 +34,14 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     HeaderText(
         copy = "Hello $name!",
         modifier = modifier,
-        color = Color.White,
+        color = MaterialTheme.colorScheme.primary,
     )
 }
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    MarkedPriceTheme {
+    AppTheme {
         Greeting("Android")
     }
 }
