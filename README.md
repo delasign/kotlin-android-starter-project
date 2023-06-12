@@ -107,16 +107,20 @@ Open the spotless.gradle to change the configuration using the <a href="https://
 7. <a href="https://delasign.com/blog/android-studio-custom-color/?utm=github-starter-project">How to add and use custom colors in an Android project 🔗</a>
 
 ### **Coordinators / Managers**
+
 1. <a href="https://delasign.com/blog/android-studio-kotlin-styleguide/?utm=github-starter-project">How to create a Styleguide in Android Studio and Kotlin 🔗</a>
 
 ### **Jetpack Compose**
+
 1. <a href="https://delasign.com/blog/how-to-implement-custom-text-styles-using-kotlin-and-jetpack-compose/?utm=github-starter-project">How to implement custom Text Styles using Kotlin and Jetpack Compose 🔗</a>
 
 ### **Settings**
+
 1. <a href="https://delasign.com/blog/android-studio-soft-wrap-files/?utm=github-starter-project">How to Soft Wrap Files in Android Studio 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-git-automation-settings/?utm=github-starter-project">How to change git version control automation settings 🔗</a>
 
 ### **Gradle**
+
 1. <a href="https://delasign.com/blog/android-studio-create-gradle-file/?utm=github-starter-project">How to create a Gradle file in Android Studio 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-gradle-pre-build-task/?utm=github-starter-project">How to run a Gradle Kotlin DSL build task in Android Studio 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-run-build-task-any-stage/?utm=github-starter-project">How to run a task at any stage of an app Gradle build 🔗</a>
