@@ -1,5 +1,15 @@
 {
   "sample": {
     "sampleString": "A sample string"
+  },
+  "sampleTwo": {
+    "sampleA": {
+      "sampleString": "A sample string",
+      "sampleStringTwo": "A sample string"
+    },
+    "sampleB": {
+      "aSampleString": "A sample string",
+      "aSampleStringTwo": "A sample string"
+    }
   }
 }
