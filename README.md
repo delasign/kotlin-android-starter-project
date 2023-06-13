@@ -86,7 +86,8 @@ Command + Shift + R<br/>
 
 ### **Coordinators / Managers**
 
-1. <a href="https://delasign.com/blog/android-studio-kotlin-styleguide/?utm=github-starter-project">How to create a Styleguide in Android Studio and Kotlin 🔗</a>
+1. <a href="https://delasign.com/blog/android-studio-kotlin-singleton/?utm=github-starter-project">How to create and use a Singleton in Kotlin 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-kotlin-styleguide/?utm=github-starter-project">How to create a Styleguide in Android Studio and Kotlin 🔗</a>
 
 ### **Jetpack Compose**
 
