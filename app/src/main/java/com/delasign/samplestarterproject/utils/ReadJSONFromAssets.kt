@@ -6,7 +6,7 @@ import com.delasign.samplestarterproject.models.constants.DebuggingIdentifiers
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
-fun ReadJSONFromAssets(context: Context, path: String) {
+fun ReadJSONFromAssets(context: Context, path: String): String {
     val identifier = "[ReadJSON]"
     try {
         val file = context.assets.open("$path")
@@ -30,11 +30,13 @@ fun ReadJSONFromAssets(context: Context, path: String) {
             identifier,
             "${DebuggingIdentifiers.actionOrEventSucceded} JSON as String: $jsonString.",
         )
+        return jsonString
     } catch (e: Exception) {
         Log.e(
             identifier,
             "${DebuggingIdentifiers.actionOrEventFailed} Error reading JSON: $e.",
         )
         e.printStackTrace()
+        return ""
     }
 }
