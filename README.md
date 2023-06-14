@@ -83,11 +83,13 @@ Command + Shift + R<br/>
 5. <a href="https://delasign.com/blog/android-studio-create-file-folder-resource?utm=github-starter-project">How to create a file, folder or resource in Android Studio 🔗</a>
 6. <a href="https://delasign.com/blog/android-studio-custom-font/?utm=github-starter-project">How to add a custom font to an Android Studio project 🔗</a>
 7. <a href="https://delasign.com/blog/android-studio-custom-color/?utm=github-starter-project">How to add and use custom colors in an Android project 🔗</a>
+8. <a href="https://delasign.com/blog/android-studio-kotlin-system-language/?utm=github-starter-project">How to get the current Android System Language in Kotlin 🔗</a>
 
 ### **Coordinators / Managers**
 
 1. <a href="https://delasign.com/blog/android-studio-kotlin-singleton/?utm=github-starter-project">How to create and use a Singleton in Kotlin 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-styleguide/?utm=github-starter-project">How to create a Styleguide in Android Studio and Kotlin 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-kotlin-language-coordinator/?utm=github-starter-project">How to create and use a Language Coordinator in Kotlin 🔗</a>
 
 ### **Jetpack Compose**
 
@@ -95,6 +97,13 @@ Command + Shift + R<br/>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 4. <a href="https://delasign.com/blog/android-studio-kotlin-is-dark-mode/?utm=github-starter-project">How to determine if an Android app is using light mode or dark mode 🔗</a>
+
+### **JSON**
+
+1. <a href="https://delasign.com/blog/android-studio-kotlin-json/?utm=github-starter-project">How to add a JSON file to an Android Studio project 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-kotlin-read-json/?utm=github-starter-project">How to read a JSON file from the assets folder using Kotlin 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
+
 
 
 ### **Settings**
