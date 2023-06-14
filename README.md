@@ -85,6 +85,13 @@ Command + Shift + R<br/>
 7. <a href="https://delasign.com/blog/android-studio-custom-color/?utm=github-starter-project">How to add and use custom colors in an Android project 🔗</a>
 8. <a href="https://delasign.com/blog/android-studio-kotlin-system-language/?utm=github-starter-project">How to get the current Android System Language in Kotlin 🔗</a>
 
+### **For App Releases**
+1. <a href="https://delasign.com/blog/android-studio-test-apk/?utm=github-starter-project">How to build a test APK in Android Studio 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-build-release-apk-aab/?utm=github-starter-project">How to build and find a release APK or Bundle in Android Studio 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-test-release-apk-on-local-device/?utm=github-starter-project">How to build and test a release APK on a local device 🔗</a>
+4. <a href="https://delasign.com/blog/android-studio-obfuscated-the-code/?utm=github-starter-project">How to obfuscated the code of an Android app in Android Studio 🔗</a>
+5. <a href="https://delasign.com/blog/android-studio-dont-obfuscate-this-code/?utm=github-starter-project">How to not obfuscate specific Android files or folder 🔗</a>
+
 ### **Coordinators / Managers**
 
 1. <a href="https://delasign.com/blog/android-studio-kotlin-singleton/?utm=github-starter-project">How to create and use a Singleton in Kotlin 🔗</a>
@@ -103,7 +110,6 @@ Command + Shift + R<br/>
 1. <a href="https://delasign.com/blog/android-studio-kotlin-json/?utm=github-starter-project">How to add a JSON file to an Android Studio project 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-read-json/?utm=github-starter-project">How to read a JSON file from the assets folder using Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
-
 
 
 ### **Settings**
