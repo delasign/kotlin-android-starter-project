@@ -111,6 +111,9 @@ Command + Shift + R<br/>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-read-json/?utm=github-starter-project">How to read a JSON file from the assets folder using Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
 
+### **Security**
+1. <a href="https://delasign.com/blog/android-studio-kotlin-broadcast-recievers-export-or-not/?utm=github-starter-project">How to manage what broadcasts Broadcast Receivers receive in Kotlin 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-kotlin-implicit-explicit-intents/?utm=github-starter-project">How to implement implicit and explicit Android Intents in Kotlin 🔗</a>
 
 ### **Settings**
 
