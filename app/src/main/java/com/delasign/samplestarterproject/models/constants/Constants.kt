@@ -2,6 +2,9 @@ package com.delasign.samplestarterproject.models.constants
 
 import androidx.compose.ui.unit.dp
 
+// MARK: App Specific
+const val kAppBundleId = "com.delasign.samplestarterproject"
+
 // MARK: Visual Constants
 val kButtonDimension = 60.dp
 val kPadding = 20.dp

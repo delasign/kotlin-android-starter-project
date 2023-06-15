@@ -2,6 +2,8 @@
 package com.delasign.samplestarterproject.coordinators.languageCoordinator
 
 import android.util.Log
+import com.delasign.samplestarterproject.coordinators.notificationCoordinator.NotificationCoordinator
+import com.delasign.samplestarterproject.coordinators.notificationCoordinator.sendOnLanguageContentUpdateIntent
 import com.delasign.samplestarterproject.models.constants.DebuggingIdentifiers
 import com.delasign.samplestarterproject.models.languageContent.Languages
 import java.util.Locale
@@ -42,4 +44,6 @@ fun LanguageCoordinator.updateCurrentContent() {
         "updateCurrentContent  ${DebuggingIdentifiers.actionOrEventSucceded} Set content to $currentLanguage.",
     )
     currentContent = content
+    // Send Notification
+    NotificationCoordinator.shared.sendOnLanguageContentUpdateIntent()
 }

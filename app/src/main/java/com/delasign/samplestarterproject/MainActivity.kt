@@ -1,47 +1,48 @@
 package com.delasign.samplestarterproject
 
+import android.content.BroadcastReceiver
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.delasign.samplestarterproject.coordinators.languageCoordinator.LanguageCoordinator
 import com.delasign.samplestarterproject.coordinators.languageCoordinator.updateCurrentContent
+import com.delasign.samplestarterproject.coordinators.notificationCoordinator.NotificationCoordinator
+import com.delasign.samplestarterproject.coordinators.notificationCoordinator.sendSampleIntent
 import com.delasign.samplestarterproject.models.constants.DebuggingIdentifiers
-import com.delasign.samplestarterproject.models.languageContent.UIContent
-import com.delasign.samplestarterproject.ui.styleguide.HeaderText
-import com.delasign.samplestarterproject.ui.styleguide.theme.AppTheme
+import com.delasign.samplestarterproject.models.notifications.SystemNotifications
 
 class MainActivity : ComponentActivity() {
     // MARK: Variables
     val identifier = "[MainActivity]"
 
+    // MARK: Broadcast Reciever
+    val broadcastReceiver = object : BroadcastReceiver() {
+        override fun onReceive(context: Context, intent: Intent) {
+            Log.i(
+                identifier,
+                "${DebuggingIdentifiers.actionOrEventSucceded} ${DebuggingIdentifiers.notificationRecieved}  $intent | ${intent.extras}",
+            )
+            when (intent.action) {
+                SystemNotifications.sampleIntent -> onSampleIntent(intent = intent)
+                SystemNotifications.onLanguageContentUpdateIntent -> onLanguageContentUpdateIntent(intent = intent)
+            }
+        }
+    }
+
     // MARK: Lifecycle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setupNotifications()
         setupCoordinators()
-        val currentContent: UIContent = LanguageCoordinator.shared.currentContent ?: return
-        setContent {
-            AppTheme {
-                // A surface container using the 'background' color from the theme
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background,
-                ) {
-                    Greeting(currentContent.sample.sampleString)
-                }
-            }
-        }
+        setupUI()
     }
 
     override fun onResume() {
         super.onResume()
         LanguageCoordinator.shared.updateCurrentContent()
+        NotificationCoordinator.shared.sendSampleIntent()
     }
 
     // MARK: Setup Functionality
@@ -50,23 +51,7 @@ class MainActivity : ComponentActivity() {
             identifier,
             "${DebuggingIdentifiers.actionOrEventInProgress} Setting Up Coordinators.",
         )
+        NotificationCoordinator.shared.initialize(context = baseContext)
         LanguageCoordinator.shared.initialize(context = baseContext)
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    HeaderText(
-        copy = "Hello $name!",
-        modifier = modifier,
-        color = MaterialTheme.colorScheme.primary,
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    AppTheme {
-        Greeting("Android")
     }
 }

@@ -11,7 +11,7 @@ class LanguageCoordinator {
     // MARK: Variables
     companion object {
         val shared = LanguageCoordinator()
-        val identifier = "[LanguageCoordinator]"
+        const val identifier = "[LanguageCoordinator]"
     }
     var systemLanguage: String = Locale.getDefault().language
     var currentLanguage: Languages = Languages.ENGLISH
