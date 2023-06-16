@@ -105,6 +105,11 @@ Command + Shift + R<br/>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 4. <a href="https://delasign.com/blog/android-studio-kotlin-is-dark-mode/?utm=github-starter-project">How to determine if an Android app is using light mode or dark mode 🔗</a>
 
+### **Intents / Notifications**
+1. <a href="https://delasign.com/blog/android-studio-kotlin-send-intents/?utm=github-starter-project">How to broadcast an Intent in Kotlin 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-kotlin-receive-intents-activity/?utm=github-starter-project">How to listen for an intent using a Broadcast Receiver in an Activity 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-kotlin-receive-intents-composable/?utm=github-starter-project">How to listen for an intent using a Broadcast Receiver in a Composable 🔗</a>
+
 ### **JSON**
 
 1. <a href="https://delasign.com/blog/android-studio-kotlin-json/?utm=github-starter-project">How to add a JSON file to an Android Studio project 🔗</a>

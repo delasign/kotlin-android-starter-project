@@ -1,4 +1,36 @@
 #!/bin/bash
+
+echo "*********************************************************"
+echo "Running git pre-commit hook. Making sure that its a valid branch..."
+echo "*********************************************************"
+
+
+# Branch
+branch="$(git rev-parse --abbrev-ref HEAD)"
+
+echo ""
+echo "Current Branch: $branch"
+echo ""
+
+if [ "$branch" = "dev" ]; then
+  echo "You can't commit directly to dev branch"
+  exit 1
+fi
+
+if [ "$branch" = "uat" ]; then
+  echo "You can't commit directly to uat branch"
+  exit 1
+fi
+
+if [ "$branch" = "main" ]; then
+  echo "You can't commit directly to main branch"
+  exit 1
+fi
+
+echo ""
+echo "The branch is valid, moving onto next step..."
+echo ""
+
 echo "*********************************************************"
 echo "Running git pre-commit hook. Running Spotless Apply... "
 echo "*********************************************************"
