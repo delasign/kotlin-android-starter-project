@@ -2,6 +2,7 @@
 package com.delasign.samplestarterproject.coordinators.languageCoordinator
 
 import android.util.Log
+import com.delasign.samplestarterproject.coordinators.languageCoordinator.LanguageCoordinator.Companion.identifier
 import com.delasign.samplestarterproject.coordinators.notificationCoordinator.NotificationCoordinator
 import com.delasign.samplestarterproject.coordinators.notificationCoordinator.sendOnLanguageContentUpdateIntent
 import com.delasign.samplestarterproject.models.constants.DebuggingIdentifiers
@@ -12,7 +13,7 @@ fun LanguageCoordinator.updateCurrentContent() {
     // Get the current system language
     systemLanguage = Locale.getDefault().language
     Log.i(
-        "${LanguageCoordinator.identifier}",
+        identifier,
         "${DebuggingIdentifiers.actionOrEventInProgress} updateCurrentContent language : $systemLanguage  ${DebuggingIdentifiers.actionOrEventInProgress}.",
     )
     // Set the Current Language
@@ -33,14 +34,14 @@ fun LanguageCoordinator.updateCurrentContent() {
     // Make Sure Content Exists
     if (content == null) {
         Log.i(
-            "${LanguageCoordinator.identifier}",
+            identifier,
             "updateCurrentContent  ${DebuggingIdentifiers.actionOrEventFailed} Could not gather $currentLanguage file. Check that the context exists.",
         )
         return
     }
     // Set Content
     Log.i(
-        "${LanguageCoordinator.identifier}",
+        identifier,
         "updateCurrentContent  ${DebuggingIdentifiers.actionOrEventSucceded} Set content to $currentLanguage.",
     )
     currentContent = content

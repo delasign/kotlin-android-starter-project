@@ -8,6 +8,7 @@ import android.util.Log
 import com.delasign.samplestarterproject.models.constants.DebuggingIdentifiers
 import com.delasign.samplestarterproject.models.notifications.SystemNotifications
 import com.delasign.samplestarterproject.models.notifications.SystemNotificationsExtras
+import com.delasign.samplestarterproject.models.states.ExperienceStates
 
 fun MainActivity.setupNotifications() {
     // Register all the intents that you want to observe.
@@ -22,6 +23,12 @@ fun MainActivity.setupNotifications() {
     baseContext.registerReceiver(
         broadcastReceiver,
         IntentFilter(SystemNotifications.onLanguageContentUpdateIntent),
+        RECEIVER_NOT_EXPORTED,
+    )
+    // onUpdateExperienceState
+    baseContext.registerReceiver(
+        broadcastReceiver,
+        IntentFilter(SystemNotifications.onUpdateExperienceStateIntent),
         RECEIVER_NOT_EXPORTED,
     )
 }
@@ -47,7 +54,7 @@ fun MainActivity.onSampleIntent(intent: Intent) {
 
     Log.i(
         identifier,
-        "${DebuggingIdentifiers.actionOrEventSucceded} onSampleIntent Sequence Complete",
+        "${DebuggingIdentifiers.actionOrEventSucceded} onSampleIntent Sequence Complete.",
     )
 }
 
@@ -60,6 +67,39 @@ fun MainActivity.onLanguageContentUpdateIntent(intent: Intent) {
     setupUI()
     Log.i(
         identifier,
-        "${DebuggingIdentifiers.actionOrEventSucceded} onLanguageContentUpdateIntent Sequence Complete",
+        "${DebuggingIdentifiers.actionOrEventSucceded} onLanguageContentUpdateIntent Sequence Complete.",
+    )
+}
+
+fun MainActivity.onUpdateExperienceStateIntent(intent: Intent) {
+    Log.i(
+        identifier,
+        "${DebuggingIdentifiers.actionOrEventInProgress} onUpdateExperienceStateIntent $intent  ${DebuggingIdentifiers.actionOrEventInProgress}.",
+    )
+    // Check for Extras
+    val extras = intent.extras
+    if (extras != null) {
+        // There are extras!
+        // Gather the Ordinal
+        val ordinal = extras.getInt(SystemNotificationsExtras.experienceState)
+        val state = ExperienceStates.values()[ordinal]
+        Log.i(
+            identifier,
+            "${DebuggingIdentifiers.actionOrEventSucceded} onUpdateExperienceStateIntent gathered experience state: $state.",
+        )
+        // Set the State
+        this.state.value = state
+    } else {
+        // There are no extras
+        Log.i(
+            identifier,
+            "${DebuggingIdentifiers.actionOrEventFailed} onUpdateExperienceStateIntent Failed as there is no experience state extra.",
+        )
+        return
+    }
+
+    Log.i(
+        identifier,
+        "${DebuggingIdentifiers.actionOrEventSucceded} onUpdateExperienceStateIntent Sequence Complete.",
     )
 }

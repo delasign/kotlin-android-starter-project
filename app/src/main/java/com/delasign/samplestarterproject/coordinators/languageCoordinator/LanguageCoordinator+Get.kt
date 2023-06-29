@@ -3,7 +3,7 @@ package com.delasign.samplestarterproject.coordinators.languageCoordinator
 
 import com.delasign.samplestarterproject.models.languageContent.Languages
 import com.delasign.samplestarterproject.models.languageContent.UIContent
-import com.delasign.samplestarterproject.utils.ReadJSONFromAssets
+import com.delasign.samplestarterproject.utils.json.ReadJSONFromAssets
 import com.google.gson.Gson
 
 fun LanguageCoordinator.getContent(language: Languages): UIContent? {

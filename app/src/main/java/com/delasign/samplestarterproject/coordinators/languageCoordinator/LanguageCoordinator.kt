@@ -21,7 +21,7 @@ class LanguageCoordinator {
     // MARK: Lifecycle
     fun initialize(context: Context) {
         Log.i(
-            "${LanguageCoordinator.identifier}",
+            identifier,
             "${DebuggingIdentifiers.actionOrEventInProgress} initialize  ${DebuggingIdentifiers.actionOrEventInProgress}.",
         )
         this.context = context

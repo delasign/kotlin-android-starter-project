@@ -1,4 +1,4 @@
-package com.delasign.samplestarterproject.utils
+package com.delasign.samplestarterproject.utils.json
 
 import android.content.Context
 import android.util.Log

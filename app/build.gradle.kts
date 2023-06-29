@@ -83,5 +83,14 @@ dependencies {
     androidTestImplementation ("androidx.compose.ui:ui-test-junit4")
     debugImplementation ("androidx.compose.ui:ui-tooling")
     debugImplementation ("androidx.compose.ui:ui-test-manifest")
+    // GSON
     implementation("com.google.code.gson:gson:2.8.9")
+    // Constraint Layout
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
+    // Material Symbols
+    implementation("androidx.compose.material:material-icons-extended:1.4.3")
+    // Datastore
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    implementation("androidx.datastore:datastore-preferences-rxjava2:1.0.0")
+    implementation("androidx.datastore:datastore-preferences-rxjava3:1.0.0")
 }

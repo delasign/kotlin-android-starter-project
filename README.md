@@ -84,6 +84,9 @@ Command + Shift + R<br/>
 6. <a href="https://delasign.com/blog/android-studio-custom-font/?utm=github-starter-project">How to add a custom font to an Android Studio project 🔗</a>
 7. <a href="https://delasign.com/blog/android-studio-custom-color/?utm=github-starter-project">How to add and use custom colors in an Android project 🔗</a>
 8. <a href="https://delasign.com/blog/android-studio-kotlin-system-language/?utm=github-starter-project">How to get the current Android System Language in Kotlin 🔗</a>
+9. <a href="https://delasign.com/blog/android-studio-kotlin-state-persistence/?utm=github-starter-project">How to maintain state values when Android changes configuration 🔗</a>
+10.  <a href="https://delasign.com/blog/android-studio-kotlin-back-navigation/?utm=github-starter-project">How to implement a custom back button action in an Android Activity in Kotlin 🔗</a>
+11.  <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-back-button/?utm=github-starter-project">How to implement a custom back button action in a Composable in Kotlin 🔗</a>
 
 ### **For App Releases**
 1. <a href="https://delasign.com/blog/android-studio-test-apk/?utm=github-starter-project">How to build a test APK in Android Studio 🔗</a>
@@ -97,6 +100,7 @@ Command + Shift + R<br/>
 1. <a href="https://delasign.com/blog/android-studio-kotlin-singleton/?utm=github-starter-project">How to create and use a Singleton in Kotlin 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-styleguide/?utm=github-starter-project">How to create a Styleguide in Android Studio and Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-language-coordinator/?utm=github-starter-project">How to create and use a Language Coordinator in Kotlin 🔗</a>
+4. <a href="https://delasign.com/blog/android-studio-kotlin-data-store/?utm=github-starter-project">How to store and retrieve data using the Android DataStore 🔗</a>
 
 ### **Jetpack Compose**
 
@@ -104,11 +108,25 @@ Command + Shift + R<br/>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-light-dark-mode/?utm=github-starter-project">How to use light mode and dark mode in Android Studio and Kotlin 🔗</a>
 4. <a href="https://delasign.com/blog/android-studio-kotlin-is-dark-mode/?utm=github-starter-project">How to determine if an Android app is using light mode or dark mode 🔗</a>
+5. <a href="https://delasign.com/blog/android-studio-kotlin-jetpack-compose-constraint-layout/?utm=github-starter-project">How to create a composable that uses a ConstraintLayout in Kotlin 🔗</a>
+6. <a href="https://delasign.com/blog/android-studio-kotlin-jetpack-compose-image/?utm=github-starter-project">How to implement an image in Android using Jetpack Compose and Kotlin 🔗</a>
+7. <a href="https://delasign.com/blog/android-kotlin-jetpack-compose-symbols/?utm=github-starter-project">How to use Material Symbols in Android, Jetpack Compose and Kotlin 🔗</a>
+8. <a href="https://delasign.com/blog/android-kotlin-jetpack-compose-tint-icon-image/?utm=github-starter-project">How to tint an icon or an image using Jetpack Compose and Kotlin 🔗</a>
+9. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-custom-button/?utm=github-starter-project">How to create a custom button using Jetpack Compose and Kotlin 🔗</a>
+
 
 ### **Intents / Notifications**
+
 1. <a href="https://delasign.com/blog/android-studio-kotlin-send-intents/?utm=github-starter-project">How to broadcast an Intent in Kotlin 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-receive-intents-activity/?utm=github-starter-project">How to listen for an intent using a Broadcast Receiver in an Activity 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-receive-intents-composable/?utm=github-starter-project">How to listen for an intent using a Broadcast Receiver in a Composable 🔗</a>
+
+### ** Rotation / Orientation**
+
+1. <a href="https://delasign.com/blog/android-studio-rotate-screen-emulator/?utm=github-starter-project">How to make the Android Studio emulator update the screen on rotate 🔗</a>
+2. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-orientation/?utm=github-starter-project">How to determine the orientation of an Android device 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-landscape/?utm=github-starter-project">How to determine if an Android device is Landscape or Portrait 🔗</a>
+4. <a href="https://delasign.com/blog/android-studio-lock-orientation/?utm=github-starter-project">How to lock an Android apps orientation in Android Studio 🔗</a>
 
 ### **JSON**
 
@@ -117,6 +135,7 @@ Command + Shift + R<br/>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
 
 ### **Security**
+
 1. <a href="https://delasign.com/blog/android-studio-kotlin-broadcast-recievers-export-or-not/?utm=github-starter-project">How to manage what broadcasts Broadcast Receivers receive in Kotlin 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-implicit-explicit-intents/?utm=github-starter-project">How to implement implicit and explicit Android Intents in Kotlin 🔗</a>
 
@@ -143,6 +162,7 @@ Command + Shift + R<br/>
 
 1. <a href="https://delasign.com/blog/android-studio-fix-java-home-invalid-directory/?utm=github-starter-project">How to fix the JAVA_HOME invalid directory error on a Mac  🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-fix-sdk-location-error/?utm=github-starter-project">How to fix the SDK location not found error in Android Studio 🔗</a>
+3. <a href="https://delasign.com/blog/android-studio-installation-error-service-package/?utm=github-starter-project">How to fix installation did not succeed due to calling service package 🔗</a>
 
 
 ## 🧹 Spotless and ktlint

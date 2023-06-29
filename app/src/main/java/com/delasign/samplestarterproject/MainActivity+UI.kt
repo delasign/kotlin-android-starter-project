@@ -10,6 +10,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.delasign.samplestarterproject.coordinators.languageCoordinator.LanguageCoordinator
 import com.delasign.samplestarterproject.models.languageContent.UIContent
+import com.delasign.samplestarterproject.models.states.ExperienceStates
+import com.delasign.samplestarterproject.ui.screens.HUD
+import com.delasign.samplestarterproject.ui.screens.Landing
+import com.delasign.samplestarterproject.ui.screens.Menu
 import com.delasign.samplestarterproject.ui.styleguide.HeaderText
 import com.delasign.samplestarterproject.ui.styleguide.theme.AppTheme
 
@@ -22,8 +26,11 @@ fun MainActivity.setupUI() {
                 modifier = Modifier.fillMaxSize(),
                 color = MaterialTheme.colorScheme.background,
             ) {
-                Greeting(currentContent.sample.sampleString)
-//                SampleComposableWithReceiver(name = "Hello !", modifier = Modifier.defaultMinSize())
+                when (state.value) {
+                    ExperienceStates.LANDING -> Landing()
+                    ExperienceStates.MENU -> Menu()
+                }
+                HUD(state = state.value)
             }
         }
     }
