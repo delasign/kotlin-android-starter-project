@@ -20,13 +20,13 @@ suspend fun DataCoordinator.setSampleStringDataStore(value: String) {
     val context = this.context ?: return
     Log.i(
         identifier,
-        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}."
+        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}.",
     )
     context.dataStore.edit { preferences ->
         preferences[PreferencesKeys.sampleString] = value
         Log.i(
             identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample string : $value."
+            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample string : $value.",
         )
     }
 }
@@ -43,13 +43,13 @@ suspend fun DataCoordinator.setSampleIntDataStore(value: Int) {
     val context = this.context ?: return
     Log.i(
         identifier,
-        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleIntDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}."
+        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleIntDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}.",
     )
     context.dataStore.edit { preferences ->
         preferences[PreferencesKeys.sampleInt] = value
         Log.i(
             identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleIntDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample int : $value."
+            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleIntDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample int : $value.",
         )
     }
 }
@@ -66,13 +66,13 @@ suspend fun DataCoordinator.setSampleBooleanDataStore(value: Boolean) {
     val context = this.context ?: return
     Log.i(
         identifier,
-        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleBooleanDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}."
+        "${DebuggingIdentifiers.actionOrEventInProgress} setSampleBooleanDataStore  ${DebuggingIdentifiers.actionOrEventInProgress}.",
     )
     context.dataStore.edit { preferences ->
         preferences[PreferencesKeys.sampleBoolean] = value
         Log.i(
             identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleBooleanDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample boolean : $value."
+            "${DebuggingIdentifiers.actionOrEventInProgress} setSampleBooleanDataStore  ${DebuggingIdentifiers.actionOrEventSucceded} sample boolean : $value.",
         )
     }
 }

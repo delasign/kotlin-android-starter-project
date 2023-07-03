@@ -1,3 +1,4 @@
+// ktlint-disable filename
 package com.delasign.samplestarterproject.utils.system
 
 import android.content.Context
