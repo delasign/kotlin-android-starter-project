@@ -4,20 +4,17 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
+import coil.compose.AsyncImage
 import com.delasign.samplestarterproject.coordinators.languageCoordinator.LanguageCoordinator
 import com.delasign.samplestarterproject.models.constants.kButtonDimension
 import com.delasign.samplestarterproject.models.constants.kPadding
 import com.delasign.samplestarterproject.ui.styleguide.LabelText
-import com.delasign.samplestarterproject.ui.styleguide.theme.Blue
 
 @Composable
 fun Landing() {
@@ -27,7 +24,7 @@ fun Landing() {
     val identifier = "[Landing]"
     val context = LocalContext.current
     // MARK: States
-//    var sampleBooleanState: MutableState<Boolean> = remember { mutableStateOf(false) }
+    //    var sampleBooleanState: MutableState<Boolean> = remember { mutableStateOf(false) }
     // MARK: Visual
     ConstraintLayout(
         modifier = Modifier
@@ -44,17 +41,15 @@ fun Landing() {
         Box(
             modifier = Modifier
                 .constrainAs(elementOne) {
-                    // Please note that parent is the ConstraintLayout in line 26
+                    // Please note that parent is the ConstraintLayout in line 29
                     centerTo(parent)
                     width = Dimension.value(kButtonDimension)
                     height = Dimension.value(kButtonDimension)
                 },
         ) {
-            Icon(
-                imageVector = Icons.Default.Check,
-                contentDescription = "A Sample Check Icon",
-                modifier = Modifier.fillMaxSize(),
-                tint = Blue,
+            AsyncImage(
+                model = "https://delasign.com/delasignBlack.png",
+                contentDescription = "The delasign logo",
             )
         }
         // Then add a "LabelText" from the styleguide as "elementTwo." Place it centered horizontally to the element and kPadding below the bottom.
