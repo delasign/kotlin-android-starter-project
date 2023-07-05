@@ -87,6 +87,8 @@ Command + Shift + R<br/>
 9. <a href="https://delasign.com/blog/android-studio-kotlin-state-persistence/?utm=github-starter-project">How to maintain state values when Android changes configuration 🔗</a>
 10.  <a href="https://delasign.com/blog/android-studio-kotlin-back-navigation/?utm=github-starter-project">How to implement a custom back button action in an Android Activity in Kotlin 🔗</a>
 11.  <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-back-button/?utm=github-starter-project">How to implement a custom back button action in a Composable in Kotlin 🔗</a>
+12. <a href="https://delasign.com/blog/android-studio-app-icon/?utm=github-starter-project"How to change the Android app icon in Android Studio 🔗</a>
+13. <a href="https://delasign.com/blog/android-studio-splash-screen/?utm=github-starter-project">How to change an Android App's Splash Screen 🔗</a>
 
 ### **For App Releases**
 1. <a href="https://delasign.com/blog/android-studio-test-apk/?utm=github-starter-project">How to build a test APK in Android Studio 🔗</a>
@@ -113,6 +115,7 @@ Command + Shift + R<br/>
 7. <a href="https://delasign.com/blog/android-kotlin-jetpack-compose-symbols/?utm=github-starter-project">How to use Material Symbols in Android, Jetpack Compose and Kotlin 🔗</a>
 8. <a href="https://delasign.com/blog/android-kotlin-jetpack-compose-tint-icon-image/?utm=github-starter-project">How to tint an icon or an image using Jetpack Compose and Kotlin 🔗</a>
 9. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-custom-button/?utm=github-starter-project">How to create a custom button using Jetpack Compose and Kotlin 🔗</a>
+10. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-image-from-url/?utm=github-starter-project">How to load and display an image from a URL using Jetpack Compose and Kotlin 🔗</a>
 
 
 ### **Intents / Notifications**
@@ -128,11 +131,13 @@ Command + Shift + R<br/>
 3. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-landscape/?utm=github-starter-project">How to determine if an Android device is Landscape or Portrait 🔗</a>
 4. <a href="https://delasign.com/blog/android-studio-lock-orientation/?utm=github-starter-project">How to lock an Android apps orientation in Android Studio 🔗</a>
 
-### **JSON**
+### **Data**
 
 1. <a href="https://delasign.com/blog/android-studio-kotlin-json/?utm=github-starter-project">How to add a JSON file to an Android Studio project 🔗</a>
 2. <a href="https://delasign.com/blog/android-studio-kotlin-read-json/?utm=github-starter-project">How to read a JSON file from the assets folder using Kotlin 🔗</a>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
+4. <a href="https://delasign.com/blog/android-studio-kotlin-api-call/?utm=github-starter-project">How to make an API request in an Android app using Kotlin 🔗</a>
+
 
 ### **Security**
 
