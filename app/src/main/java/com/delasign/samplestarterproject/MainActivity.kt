@@ -40,11 +40,11 @@ class MainActivity : ComponentActivity() {
             when (intent.action) {
                 SystemNotifications.sampleIntent -> onSampleIntent(intent = intent)
                 SystemNotifications.onLanguageContentUpdateIntent -> onLanguageContentUpdateIntent(
-                    intent = intent
+                    intent = intent,
                 )
 
                 SystemNotifications.onUpdateExperienceStateIntent -> onUpdateExperienceStateIntent(
-                    intent = intent
+                    intent = intent,
                 )
             }
         }
@@ -92,8 +92,8 @@ class MainActivity : ComponentActivity() {
         super.onSaveInstanceState(outState)
         Log.i(
             identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} onSaveInstanceState ${DebuggingIdentifiers.actionOrEventInProgress}"
-        );
+            "${DebuggingIdentifiers.actionOrEventInProgress} onSaveInstanceState ${DebuggingIdentifiers.actionOrEventInProgress}",
+        )
         // Experience States
         outState.putInt(MainActivityStateKeys.experienceState, state.value.ordinal)
     }
@@ -102,8 +102,8 @@ class MainActivity : ComponentActivity() {
         super.onRestoreInstanceState(savedInstanceState)
         Log.i(
             identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} onRestoreInstanceState ${DebuggingIdentifiers.actionOrEventInProgress}"
-        );
+            "${DebuggingIdentifiers.actionOrEventInProgress} onRestoreInstanceState ${DebuggingIdentifiers.actionOrEventInProgress}",
+        )
         // If we have a saved state then we can restore it now
         if (savedInstanceState != null) {
             // Experience States
@@ -125,7 +125,7 @@ class MainActivity : ComponentActivity() {
             context = baseContext,
             onLoad = {
                 // Do Something
-            }
+            },
         )
     }
 }

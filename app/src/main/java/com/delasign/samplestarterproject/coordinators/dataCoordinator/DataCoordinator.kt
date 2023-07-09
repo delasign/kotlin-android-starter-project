@@ -13,31 +13,35 @@ class DataCoordinator {
         val shared = DataCoordinator()
         const val identifier = "[DataCoordinator]"
     }
+
     // MARK: Variables
     var context: Context? = null
+
     // Create a variable for each preference, along with a default value.
     // This is to guarantee that if it can't find it it resets to a value that you can control.
-    /// Sample String
+    // / Sample String
     var sampleStringPreferenceVariable: String = ""
     val defaultSampleStringPreferenceValue: String = ""
-    /// Sample Int
+
+    // / Sample Int
     var sampleIntPreferenceVariable: Int = 0
     val defaultSampleIntPreferenceVariable: Int = 0
-    /// Sample Boolean
-    var sampleBooleanPreferenceVariable:  Boolean = false
+
+    // / Sample Boolean
+    var sampleBooleanPreferenceVariable: Boolean = false
     val defaultSampleBooleanPreferenceVariable: Boolean = false
 
     // MARK: Data Store Variables
     private val USER_PREFERENCES_NAME = "user_preferences"
     val Context.dataStore by preferencesDataStore(
-        name = USER_PREFERENCES_NAME
+        name = USER_PREFERENCES_NAME,
     )
 
     // MARK: Lifecycle
     fun initialize(context: Context, onLoad: () -> Unit) {
         Log.i(
             "${DataCoordinator.identifier}",
-            "${DebuggingIdentifiers.actionOrEventInProgress} initialize  ${DebuggingIdentifiers.actionOrEventInProgress}."
+            "${DebuggingIdentifiers.actionOrEventInProgress} initialize  ${DebuggingIdentifiers.actionOrEventInProgress}.",
         )
         // Set Context
         this.context = context
@@ -52,7 +56,7 @@ class DataCoordinator {
             // Log the variables to confirm that they loaded correctly
             Log.i(
                 "${DataCoordinator.identifier}",
-                "initialize  ${DebuggingIdentifiers.actionOrEventSucceded} String $sampleStringPreferenceVariable | Int : $sampleIntPreferenceVariable | Boolean $sampleBooleanPreferenceVariable."
+                "initialize  ${DebuggingIdentifiers.actionOrEventSucceded} String $sampleStringPreferenceVariable | Int : $sampleIntPreferenceVariable | Boolean $sampleBooleanPreferenceVariable.",
             )
             // Callback
             onLoad()

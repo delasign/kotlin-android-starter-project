@@ -116,6 +116,7 @@ Command + Shift + R<br/>
 8. <a href="https://delasign.com/blog/android-kotlin-jetpack-compose-tint-icon-image/?utm=github-starter-project">How to tint an icon or an image using Jetpack Compose and Kotlin 🔗</a>
 9. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-custom-button/?utm=github-starter-project">How to create a custom button using Jetpack Compose and Kotlin 🔗</a>
 10. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-image-from-url/?utm=github-starter-project">How to load and display an image from a URL using Jetpack Compose and Kotlin 🔗</a>
+11. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-size-to-fit/?utm=github-starter-project">How to create a composable that sizes to fit using Kotlin 🔗</a>
 
 
 ### **Intents / Notifications**
