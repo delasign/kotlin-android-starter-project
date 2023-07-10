@@ -20,7 +20,7 @@ import com.delasign.samplestarterproject.ui.styleguide.LabelText
 import com.delasign.samplestarterproject.ui.styleguide.theme.Blue
 
 @Composable
-fun Landing() {
+fun LandingScreen() {
     val currentContent = LanguageCoordinator.shared.currentContent?.sample ?: return
 
     // MARK: Variables

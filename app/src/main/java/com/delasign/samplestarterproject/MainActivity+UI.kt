@@ -12,8 +12,8 @@ import com.delasign.samplestarterproject.coordinators.languageCoordinator.Langua
 import com.delasign.samplestarterproject.models.languageContent.UIContent
 import com.delasign.samplestarterproject.models.states.ExperienceStates
 import com.delasign.samplestarterproject.ui.screens.HUD
-import com.delasign.samplestarterproject.ui.screens.Landing
-import com.delasign.samplestarterproject.ui.screens.Menu
+import com.delasign.samplestarterproject.ui.screens.LandingScreen
+import com.delasign.samplestarterproject.ui.screens.MenuScreen
 import com.delasign.samplestarterproject.ui.styleguide.HeaderText
 import com.delasign.samplestarterproject.ui.styleguide.theme.AppTheme
 
@@ -27,8 +27,8 @@ fun MainActivity.setupUI() {
                 color = MaterialTheme.colorScheme.background,
             ) {
                 when (state.value) {
-                    ExperienceStates.LANDING -> Landing()
-                    ExperienceStates.MENU -> Menu()
+                    ExperienceStates.LANDING -> LandingScreen()
+                    ExperienceStates.MENU -> MenuScreen()
                 }
                 HUD(state = state.value)
             }

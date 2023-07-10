@@ -13,7 +13,7 @@ import com.delasign.samplestarterproject.models.constants.kPadding
 import com.delasign.samplestarterproject.ui.styleguide.HeaderText
 
 @Composable
-fun Menu() {
+fun MenuScreen() {
     val currentContent = LanguageCoordinator.shared.currentContent?.sample ?: return
 
     // MARK: Variables
