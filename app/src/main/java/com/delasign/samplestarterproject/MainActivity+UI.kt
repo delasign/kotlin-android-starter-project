@@ -1,4 +1,3 @@
-// ktlint-disable filename
 package com.delasign.samplestarterproject
 
 import androidx.activity.compose.setContent
