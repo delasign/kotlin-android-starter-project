@@ -1,5 +1,6 @@
 package com.delasign.samplestarterproject
 
+import android.util.Log
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -10,6 +11,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.delasign.samplestarterproject.coordinators.languageCoordinator.LanguageCoordinator
 import com.delasign.samplestarterproject.models.languageContent.UIContent
 import com.delasign.samplestarterproject.models.states.ExperienceStates
+import com.delasign.samplestarterproject.ui.components.camera.Camera
 import com.delasign.samplestarterproject.ui.screens.HUD
 import com.delasign.samplestarterproject.ui.screens.LandingScreen
 import com.delasign.samplestarterproject.ui.screens.MenuScreen
@@ -26,7 +28,16 @@ fun MainActivity.setupUI() {
                 color = MaterialTheme.colorScheme.background,
             ) {
                 when (state.value) {
-                    ExperienceStates.LANDING -> LandingScreen()
+                    ExperienceStates.LANDING -> {
+                        if (shouldShowCamera.value) {
+                            Camera(executor = cameraExecutor, onError = {
+                                Log.i(identifier, "There was an error with the camera : $it.")
+                            })
+                        } else {
+                            LandingScreen()
+                        }
+
+                    }
                     ExperienceStates.MENU -> MenuScreen()
                 }
                 HUD(state = state.value)

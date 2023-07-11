@@ -8,6 +8,8 @@ import android.util.Log
 import android.view.Surface
 import androidx.activity.ComponentActivity
 import androidx.activity.addCallback
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.camera.core.ExperimentalGetImage
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import com.delasign.samplestarterproject.coordinators.dataCoordinator.DataCoordinator
@@ -21,7 +23,8 @@ import com.delasign.samplestarterproject.models.keys.MainActivityStateKeys
 import com.delasign.samplestarterproject.models.notifications.SystemNotifications
 import com.delasign.samplestarterproject.models.states.ExperienceStates
 import com.delasign.samplestarterproject.utils.system.getOrientation
-
+import java.util.concurrent.ExecutorService
+@ExperimentalGetImage
 class MainActivity : ComponentActivity() {
     // MARK: Variables
     val identifier = "[MainActivity]"
@@ -50,24 +53,34 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    // MARK: States
+    var shouldShowCamera: MutableState<Boolean> = mutableStateOf(false)
+
+
+    // MARK: Camera Variables
+    lateinit var cameraExecutor: ExecutorService
+
+    // MARK: Camera Permissions
+    val requestPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            Log.i(identifier, "Camera Permission granted")
+            shouldShowCamera.value = true
+        } else {
+            Log.i(identifier, "Camera Permission denied")
+            shouldShowCamera.value = false
+        }
+    }
+
     // MARK: Lifecycle
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        requestCameraPermission()
         setupNotifications()
         setupCoordinators()
         setupUI()
-
-        val orientation = when (getOrientation(context = baseContext)) {
-            Surface.ROTATION_0 -> "Portrait"
-            Surface.ROTATION_90 -> "Landscape Right"
-            Surface.ROTATION_180 -> "Upside Down"
-            Surface.ROTATION_270 -> "Landscape Left"
-            else -> "Unknown"
-        }
-        Log.i(
-            identifier,
-            "${DebuggingIdentifiers.actionOrEventInProgress} orientation : $orientation.",
-        )
+        startCamera()
         // Test an update
         DataCoordinator.shared.updateSampleString("Hello World!")
         // Back Button Navigation
@@ -83,8 +96,15 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
+        requestCameraPermission()
         LanguageCoordinator.shared.updateCurrentContent()
         NotificationCoordinator.shared.sendSampleIntent()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        stopCamera()
+        unregisterReceiver(broadcastReceiver)
     }
 
     // MARK: State Persistence Functionality
