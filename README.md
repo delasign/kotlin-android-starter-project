@@ -139,6 +139,9 @@ Command + Shift + R<br/>
 3. <a href="https://delasign.com/blog/android-studio-kotlin-convert-json-to-data/?utm=github-starter-project">How to convert a JSON into usable data in Kotlin 🔗</a>
 4. <a href="https://delasign.com/blog/android-studio-kotlin-api-call/?utm=github-starter-project">How to make an API request in an Android app using Kotlin 🔗</a>
 
+### **Camera**
+
+1. <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-camerax-composable/?utm=github-starter-project">How to setup a camera in an Android app using Jetpack Compose 🔗</a>
 
 ### **Security**
 

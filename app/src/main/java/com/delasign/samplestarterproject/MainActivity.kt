@@ -87,6 +87,11 @@ class MainActivity : ComponentActivity() {
         NotificationCoordinator.shared.sendSampleIntent()
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        unregisterReceiver(broadcastReceiver)
+    }
+
     // MARK: State Persistence Functionality
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
