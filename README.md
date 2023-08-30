@@ -87,7 +87,7 @@ Command + Shift + R<br/>
 9. <a href="https://delasign.com/blog/android-studio-kotlin-state-persistence/?utm=github-starter-project">How to maintain state values when Android changes configuration 🔗</a>
 10.  <a href="https://delasign.com/blog/android-studio-kotlin-back-navigation/?utm=github-starter-project">How to implement a custom back button action in an Android Activity in Kotlin 🔗</a>
 11.  <a href="https://delasign.com/blog/android-studio-jetpack-compose-kotlin-back-button/?utm=github-starter-project">How to implement a custom back button action in a Composable in Kotlin 🔗</a>
-12. <a href="https://delasign.com/blog/android-studio-app-icon/?utm=github-starter-project"How to change the Android app icon in Android Studio 🔗</a>
+12. <a href="https://delasign.com/blog/android-studio-app-icon/?utm=github-starter-project">How to change the Android app icon in Android Studio 🔗</a>
 13. <a href="https://delasign.com/blog/android-studio-splash-screen/?utm=github-starter-project">How to change an Android App's Splash Screen 🔗</a>
 
 ### **For App Releases**
